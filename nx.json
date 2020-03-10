@@ -1,0 +1,28 @@
+{
+  "npmScope": "anan",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "anan": {
+      "tags": []
+    },
+    "anan-e2e": {
+      "tags": [],
+      "implicitDependencies": ["anan"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
